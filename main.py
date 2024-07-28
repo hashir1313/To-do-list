@@ -65,7 +65,7 @@ button_add.place(x=310, y=0)
 # Delete from list
 del_frame = Frame(root, width=400, height=50)
 del_frame.place(x=0, y=130)
-button_delete = Button(del_frame, text="Delete", font=("Consolas", 20), width=27, bg="#5a95ff", fg="#fff", bd=0, command=delete_task)
+button_delete = Button(del_frame, text="Remove", font=("Consolas", 20), width=27, bg="#5a95ff", fg="#fff", bd=0, command=delete_task)
 button_delete.place(x=0, y=0)
 
 # List
